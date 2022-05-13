@@ -11,7 +11,7 @@ This prototype utilizes the following steps:
 5. Further clustering of PCA data
 6. Final visual and comparison of data.
 
->![coins](https://github.com/antonmaliksi/FinTechModule10Challenge/blob/main/Readme%20Resources/coins.png)
+![coins](https://github.com/antonmaliksi/FinTechModule10Challenge/blob/main/Readme%20Resources/coins.png)
 
 ---
 
@@ -33,23 +33,23 @@ Pandas and Pathlib should be part of the base applications that were installed w
 
 To install scikit-learn, run the following:
 
-    ```
+   
     pip install -U scikit-learn
-    ```
+   
 
 To install hvPlot, run the following:
 
-    ```
+    
     conda install -c pyviz hvplot
-    ```
+    
     
 After installing, run the following to ensure that sklearn and hvplot are installed:
 
-    ```
+    
     conda list scikit-learn
     
     conda list hvplot
-    ```
+    
     
 If any errors occur, please contact IT for further assistance.
 
@@ -71,7 +71,7 @@ Please ensure that the .csv you wish to use is imported from the Resources folde
 ### Part 2: Preparing the Data
 Before analyzing the data, we need to first use the ```StandardScalar()``` module to normalize our data. We will then create a pandas DataFrame with the new scaled data.
 
->![prepare](https://github.com/antonmaliksi/FinTechModule10Challenge/blob/main/Readme%20Resources/prepare.PNG)
+![prepare](https://github.com/antonmaliksi/FinTechModule10Challenge/blob/main/Readme%20Resources/prepare.PNG)
 
 ### Part 3: Find "k" value using Data
 The K-means algorithm is an unsupervised learning algorithm that identifies clusters and provides many types of data for further analysis or manipulation. Using the "k" value helps us cluster segments of data together, providng a refined set of data.
@@ -87,7 +87,7 @@ We want to visualize the clustering of our KMeans for further analysis. To accom
 
 Code                                         |  Crypto Scatter Plot with k-4
 :-------------------------------------------:|:--------------------------------:
->![ogmodel](https://github.com/antonmaliksi/FinTechModule10Challenge/blob/main/Readme%20Resources/OGmodel.PNG)  |  >![ogscatter](https://github.com/antonmaliksi/FinTechModule10Challenge/blob/main/Readme%20Resources/OGscatter.PNG)
+![ogmodel](https://github.com/antonmaliksi/FinTechModule10Challenge/blob/main/Readme%20Resources/OGmodel.PNG)  |  ![ogscatter](https://github.com/antonmaliksi/FinTechModule10Challenge/blob/main/Readme%20Resources/OGscatter.PNG)
 
 ### Part 4: Optimize Clusters with Principal Component Analysis (PCA)
 Principal Component Analysis (PCA) is a statistical technique used to accelerate machine learning algorithms when too many features exist. This is exectued to increase interpretability and minimize information loss.
